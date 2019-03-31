@@ -1,7 +1,8 @@
 <?php
-session_start();
-unset($_SESSION['face_acess_token']);
+//session_start();
+//unset($_SESSION['face_acess_token']);
 require_once 'lib/Facebook/autoload.php'; // change path as needed
+require_once 'conexao.php'; // change path as needed
 
 $fb = new \Facebook\Facebook([
   'app_id' => '2259360870980761',
@@ -60,19 +61,18 @@ if (! isset($accessToken)) {
 			  // Returns a `Facebook\FacebookResponse` object
 			  $response = $fb->get('/me?fields=name, picture, email');
 			  $user = $response->getGraphUser();
-			  //var_dump($user);
+			  var_dump($user);
 			  //validando o usuário
 
-			  $result_usuario = "SELECT ID, user_nicename, user_email FROM wp_users WHERE user_email='".$user['email']."' LIMIT 1";
+			   $result_usuario = "SELECT ID, nome, email FROM cadastro WHERE email='".$user['email']."' LIMIT 1";
 			  $resultado_usuario = mysqli_query($conn, $result_usuario);
 			  if($resultado_usuario){
 					$row_usuario = mysqli_fetch_assoc($resultado_usuario);
 					$_SESSION['id'] = $row_usuario['ID'];
-					$_SESSION['nome'] = $row_usuario['user_nicename'];
-					$_SESSION['email'] = $row_usuario['user_email'];
+					$_SESSION['nome'] = $row_usuario['nome'];
+					$_SESSION['email'] = $row_usuario['email'];
 					header("Location: administrativo.php");
 				}
-					
 
 			} catch(Facebook\Exceptions\FacebookResponseException $e) {
 			  echo 'Graph returned an error: ' . $e->getMessage();
@@ -85,4 +85,4 @@ if (! isset($accessToken)) {
 
 	?>
 
-	<a href="<?php echo $loginUrl; ?>">Facebook</a>
+	<!--<a href="<?php echo $loginUrl; ?>">Facebook</a>-->
