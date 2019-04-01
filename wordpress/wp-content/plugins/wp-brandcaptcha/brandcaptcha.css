@@ -1,0 +1,49 @@
+/* BRANDCAPTCHA STYLING */
+.brandcaptcha-error {
+   font-size: 1.8em;
+   padding-bottom: 8px;
+}
+
+#brand_cap_widget{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#brand_cap_widget table, #brand_cap_widget table td {
+    vertical-align: middle;
+}
+
+#brand_cap_widget input {
+    font-size: 13px;
+}
+
+/* END BRANDCAPTCHA STYLING */
+
+
+/* ADMINISTRATION SETTINGS BRANDCAPTCHA */
+.lang-select label, .theme-select label {
+   vertical-align: middle !important;
+}
+
+.lang-select select, .theme-select select {
+   vertical-align: middle !important;
+}
+
+.brandcaptcha-form {
+   margin: auto !important;
+   width: 25em !important;
+}
+
+.brandcaptcha-options td {
+   vertical-align: top !important;
+}
+
+.which-key label {
+   font-weight: bold;
+}
+
+.copyright {
+   text-align: center;
+   font-size: .85em;
+}
+/* END ADMINISTRATION SETTINGS BRANDCAPTCHA */

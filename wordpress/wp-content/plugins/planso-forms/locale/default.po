@@ -1,0 +1,618 @@
+# Translation of PlanSo Form Builder in English
+# This file is distributed under the same license as the PlanSo Form Builder package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-02-10 12:20:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: PlanSo Form Builder\n"
+
+#: includes/edit.php:75 includes/vars.inc.php:46
+msgid "Search"
+msgstr ""
+
+#: includes/edit.php:65 includes/vars.inc.php:38
+msgid "Month"
+msgstr ""
+
+#: includes/edit.php:1794
+msgid "Depending on your theme you might want to choose a different datepicker for date fields."
+msgstr ""
+
+#: includes/edit.php:1784
+msgid "Select the Datepicker that best fits your theme"
+msgstr ""
+
+#: includes/edit.php:64 includes/vars.inc.php:37
+msgid "Week"
+msgstr ""
+
+#: includes/edit.php:76 includes/vars.inc.php:47
+msgid "Hidden"
+msgstr ""
+
+#: includes/submit.php:24
+msgid "Honeypot is not empty"
+msgstr ""
+
+#: includes/submit.php:37
+msgid "Salt missmatch"
+msgstr ""
+
+#: includes/submit.php:46
+msgid "Anti spam field was omitted"
+msgstr ""
+
+#: includes/submit.php:51
+msgid "Anti spam fields dont match"
+msgstr ""
+
+#: includes/submit.php:110 includes/submit.php:116
+msgid "File upload error"
+msgstr ""
+
+#: includes/edit.php:1299
+msgid "Hide label"
+msgstr ""
+
+#: includes/edit.php:1302
+msgid "Hide label of field"
+msgstr ""
+
+#: includes/edit.php:1305
+msgid "Check this to hide the label of the field"
+msgstr ""
+
+#: includes/edit.php:1479
+msgid "Thank you page"
+msgstr ""
+
+#: includes/edit.php:1485
+msgid "Thank you page url"
+msgstr ""
+
+#: includes/edit.php:1487
+msgid "Enter the website address (inkl. http://) of the page the user should be redirected to after successfully submitting the form"
+msgstr ""
+
+#: includes/form.php:114
+msgid "Attention! There has been an error submitting the form. Please check the marked fields below."
+msgstr ""
+
+#: includes/form.php:120
+msgid "Your submission was successful."
+msgstr ""
+
+#: includes/edit.php:1420 includes/edit.php:1465 includes/edit.php:1501
+#: includes/edit.php:1642 includes/edit.php:1736 includes/edit.php:1822
+msgid "Save"
+msgstr ""
+
+#: includes/edit.php:1812
+msgid "Form HTML"
+msgstr ""
+
+#: includes/edit.php:1817
+msgid "JSON"
+msgstr ""
+
+#: includes/edit.php:1821
+msgid "Generate"
+msgstr ""
+
+#: index.php:146
+msgid "PlanSo form created."
+msgstr ""
+
+#: index.php:148
+msgid "PlanSo form saved."
+msgstr ""
+
+#: index.php:150
+msgid "PlanSo form deleted."
+msgstr ""
+
+#: index.php:208
+msgid "[Copy]"
+msgstr ""
+
+#: includes/edit.php:13
+msgid "Add New Form"
+msgstr ""
+
+#: includes/edit.php:17
+msgid "Edit Form"
+msgstr ""
+
+#: includes/edit.php:19 includes/list.php:8
+msgid "Add New"
+msgstr ""
+
+#: includes/edit.php:29
+msgid "Back to forms"
+msgstr ""
+
+#: includes/edit.php:1775
+msgid "Enable special javascript based anti spam protection"
+msgstr ""
+
+#: includes/edit.php:1777
+msgid "If checked a special hidden field will be appended to your form via javascript. The form will break for users with javascript disabled!"
+msgstr ""
+
+#: includes/list.php:20 includes/list.php:48
+msgid "Title"
+msgstr ""
+
+#: includes/list.php:24 includes/list.php:52
+msgid "Shortcode"
+msgstr ""
+
+#: includes/list.php:27 includes/list.php:55
+msgid "Author"
+msgstr ""
+
+#: includes/list.php:117
+msgid "Are you sure you want to delete this form?"
+msgstr ""
+
+#: includes/form.php:142
+msgid "Please enable Javascript in your Browser in order to correctly submit this form."
+msgstr ""
+
+#: includes/edit.php:550 includes/form.php:281
+msgid "Submit"
+msgstr ""
+
+#: index.php:36
+msgid "Unnamed"
+msgstr ""
+
+#: index.php:96
+msgid "PlanSo Form Builder"
+msgstr ""
+
+#: index.php:97
+msgid "Create new PlanSo Form"
+msgstr ""
+
+#: index.php:97
+msgid "New Form"
+msgstr ""
+
+#: includes/list.php:7
+msgid "PlanSo Forms"
+msgstr ""
+
+#: includes/submit.php:92
+msgid "This field is required"
+msgstr ""
+
+#: includes/submit.php:97
+msgid "Invalid E-Mail"
+msgstr ""
+
+#: includes/submit.php:102
+msgid "Invalid URL"
+msgstr ""
+
+#: includes/submit.php:243 includes/submit.php:316 includes/submit.php:364
+msgid "Your Wordpress Blog"
+msgstr ""
+
+#: includes/submit.php:362
+msgid "has been submitted"
+msgstr ""
+
+#: includes/edit.php:47 includes/vars.inc.php:21
+msgid "Predefined fields"
+msgstr ""
+
+#: includes/edit.php:48 includes/vars.inc.php:22
+msgid "Name"
+msgstr ""
+
+#: includes/edit.php:49 includes/vars.inc.php:23
+msgid "First name"
+msgstr ""
+
+#: includes/edit.php:50 includes/vars.inc.php:24
+msgid "Last name"
+msgstr ""
+
+#: includes/edit.php:51 includes/vars.inc.php:25
+msgid "Email"
+msgstr ""
+
+#: includes/edit.php:52 includes/vars.inc.php:26
+msgid "Landline"
+msgstr ""
+
+#: includes/edit.php:53 includes/vars.inc.php:27
+msgid "Mobile phone"
+msgstr ""
+
+#: includes/edit.php:54 includes/vars.inc.php:28
+msgid "Phone"
+msgstr ""
+
+#: includes/edit.php:55 includes/vars.inc.php:29
+msgid "Generic fields"
+msgstr ""
+
+#: includes/edit.php:56 includes/vars.inc.php:30
+msgid "Text"
+msgstr ""
+
+#: includes/edit.php:57 includes/vars.inc.php:31
+msgid "Multiline text"
+msgstr ""
+
+#: includes/edit.php:58 includes/vars.inc.php:32
+msgid "Number"
+msgstr ""
+
+#: includes/edit.php:59 includes/vars.inc.php:33
+msgid "Date and time fields"
+msgstr ""
+
+#: includes/edit.php:60 includes/vars.inc.php:34 includes/list.php:33
+#: includes/list.php:61
+msgid "Date"
+msgstr ""
+
+#: includes/edit.php:61 includes/vars.inc.php:36
+msgid "Time"
+msgstr ""
+
+#: includes/edit.php:62 includes/vars.inc.php:35
+msgid "Date and time"
+msgstr ""
+
+#: includes/edit.php:67 includes/vars.inc.php:39
+msgid "Select fields"
+msgstr ""
+
+#: includes/edit.php:68 includes/vars.inc.php:40
+msgid "Select"
+msgstr ""
+
+#: includes/edit.php:69 includes/vars.inc.php:41
+msgid "Multiselect"
+msgstr ""
+
+#: includes/edit.php:70 includes/vars.inc.php:42
+msgid "Radio"
+msgstr ""
+
+#: includes/edit.php:71 includes/vars.inc.php:43
+msgid "Checkbox"
+msgstr ""
+
+#: includes/edit.php:72 includes/vars.inc.php:44
+msgid "Special fields"
+msgstr ""
+
+#: includes/edit.php:74 includes/vars.inc.php:45
+msgid "Range"
+msgstr ""
+
+#: includes/edit.php:78 includes/vars.inc.php:48
+msgid "Single file"
+msgstr ""
+
+#: includes/edit.php:79 includes/vars.inc.php:49
+msgid "Multiple files"
+msgstr ""
+
+#: includes/edit.php:80 includes/vars.inc.php:50
+msgid "Url"
+msgstr ""
+
+#: includes/edit.php:82 includes/vars.inc.php:51
+msgid "Color"
+msgstr ""
+
+#: includes/edit.php:84 includes/vars.inc.php:52
+msgid "Submit buttons"
+msgstr ""
+
+#: includes/edit.php:86 includes/vars.inc.php:53
+msgid "Button"
+msgstr ""
+
+#: includes/edit.php:88
+msgid "Submit button"
+msgstr ""
+
+#: includes/edit.php:90 includes/vars.inc.php:55
+msgid "Submit-Image"
+msgstr ""
+
+#: includes/edit.php:1120
+msgid "Please position the cursor at the position/field where you want to insert the variable"
+msgstr ""
+
+#: includes/edit.php:1232 includes/list.php:117
+msgid "Delete"
+msgstr ""
+
+#: includes/edit.php:1233 includes/list.php:79 includes/list.php:97
+#: includes/list.php:109
+msgid "Edit"
+msgstr ""
+
+#: includes/edit.php:1234 includes/edit.php:1235
+msgid "Move"
+msgstr ""
+
+#: includes/edit.php:1243
+msgid "Edit field"
+msgstr ""
+
+#: includes/edit.php:1252
+msgid "Basic"
+msgstr ""
+
+#: includes/edit.php:1253
+msgid "Select values"
+msgstr ""
+
+#: includes/edit.php:1254
+msgid "Advanced"
+msgstr ""
+
+#: includes/edit.php:1263
+msgid "Field label"
+msgstr ""
+
+#: includes/edit.php:1265
+msgid "Enter the label that describes the field"
+msgstr ""
+
+#: includes/edit.php:1269
+msgid "Placeholder"
+msgstr ""
+
+#: includes/edit.php:1271
+msgid "The placeholder is placed within empty fields and helps your users filling out the form"
+msgstr ""
+
+#: includes/edit.php:1275
+msgid "Help-Text"
+msgstr ""
+
+#: includes/edit.php:1277
+msgid "Provide additional help for filling out this field"
+msgstr ""
+
+#: includes/edit.php:1281
+msgid "Icon"
+msgstr ""
+
+#: includes/edit.php:1283
+msgid "Please enter a Font-Awesome icon class. i.e. &quot;fa-user&quot;. Available Icons are found here: "
+msgstr ""
+
+#: includes/edit.php:1289
+msgid "Mandatory"
+msgstr ""
+
+#: includes/edit.php:1292
+msgid "Mandatory field"
+msgstr ""
+
+#: includes/edit.php:1295
+msgid "Check this to mark the field as required"
+msgstr ""
+
+#: includes/edit.php:1317 includes/edit.php:1337
+msgid "Label"
+msgstr ""
+
+#: includes/edit.php:1320 includes/edit.php:1340
+msgid "Value"
+msgstr ""
+
+#: includes/edit.php:1333
+msgid "Option value pairs"
+msgstr ""
+
+#: includes/edit.php:1336
+msgid "The visible part"
+msgstr ""
+
+#: includes/edit.php:1339
+msgid "The value will be submitted to you"
+msgstr ""
+
+#: includes/edit.php:1352
+msgid "Add option"
+msgstr ""
+
+#: includes/edit.php:1361
+msgid "Field variable name"
+msgstr ""
+
+#: includes/edit.php:1364
+msgid "This variable can be used in the emails sent upon submit"
+msgstr ""
+
+#: includes/edit.php:1368
+msgid "CSS Class"
+msgstr ""
+
+#: includes/edit.php:1370
+msgid "Add an individual CSS class name to this field"
+msgstr ""
+
+#: includes/edit.php:1374
+msgid "CSS Style"
+msgstr ""
+
+#: includes/edit.php:1376
+msgid "Format this field with custom inline CSS rules"
+msgstr ""
+
+#: includes/edit.php:1385
+msgid "Cancel"
+msgstr ""
+
+#: includes/edit.php:1386
+msgid "Update"
+msgstr ""
+
+#: includes/edit.php:1396 includes/edit.php:1411
+msgid "Form Title"
+msgstr ""
+
+#: includes/edit.php:1432
+msgid "Form settings"
+msgstr ""
+
+#: includes/edit.php:1515
+msgid "Admin Mail settings"
+msgstr ""
+
+#: includes/edit.php:1569
+msgid "Admin mail subject"
+msgstr ""
+
+#: includes/edit.php:1571
+msgid "This is the subject of the email sent to you/the admin"
+msgstr ""
+
+#: includes/edit.php:1580
+msgid "Admin mail body"
+msgstr ""
+
+#: includes/edit.php:1581
+msgid "This is the content of the email sent to you/the admin"
+msgstr ""
+
+#: includes/edit.php:1585
+msgid "Admin mail recipient(s)"
+msgstr ""
+
+#: includes/edit.php:1587
+msgid "Enter one or more recipient email address for the admin mail. Devide multiple recipients with ;"
+msgstr ""
+
+#: includes/edit.php:1591
+msgid "Admin mail bcc recipient(s)"
+msgstr ""
+
+#: includes/edit.php:1593
+msgid "Enter one or more bcc email address for the admin mail. Devide multiple recipients with ;"
+msgstr ""
+
+#: includes/edit.php:1599
+msgid "Admin mail from name"
+msgstr ""
+
+#: includes/edit.php:1601
+msgid "This is the senders name for the email sent to you/the admin"
+msgstr ""
+
+#: includes/edit.php:1606
+msgid "Admin mail from email"
+msgstr ""
+
+#: includes/edit.php:1608
+msgid "This is the senders email adress for the email sent to you/the admin"
+msgstr ""
+
+#: includes/edit.php:1614
+msgid "Admin mail reply to address"
+msgstr ""
+
+#: includes/edit.php:1616
+msgid "Enter one email address that is used as the reply adress when answering the admin mail."
+msgstr ""
+
+#: includes/edit.php:1655
+msgid "User Mail settings"
+msgstr ""
+
+#: includes/edit.php:1664
+msgid "User mail subject"
+msgstr ""
+
+#: includes/edit.php:1666
+msgid "This is the subject of the email sent to the user of the form"
+msgstr ""
+
+#: includes/edit.php:1675
+msgid "User mail body"
+msgstr ""
+
+#: includes/edit.php:1677
+msgid "This is the content of the email sent to the user of the form"
+msgstr ""
+
+#: includes/edit.php:1682
+msgid "User mail recipient(s)"
+msgstr ""
+
+#: includes/edit.php:1684
+msgid "Enter one or more recipient email address for the user mail. Devide multiple recipients with ;"
+msgstr ""
+
+#: includes/edit.php:1688
+msgid "User mail bcc recipient(s)"
+msgstr ""
+
+#: includes/edit.php:1690
+msgid "Enter one or more bcc email address for the user mail. Devide multiple recipients with ;"
+msgstr ""
+
+#: includes/edit.php:1696
+msgid "User mail from name"
+msgstr ""
+
+#: includes/edit.php:1698
+msgid "This is the senders name for the email sent to the user"
+msgstr ""
+
+#: includes/edit.php:1703
+msgid "User mail from email"
+msgstr ""
+
+#: includes/edit.php:1705
+msgid "This is the senders email adress for the email sent to the user"
+msgstr ""
+
+#: includes/edit.php:1711
+msgid "User mail reply to address"
+msgstr ""
+
+#: includes/edit.php:1713
+msgid "Enter one email address that is used as the reply adress when answering the user mail."
+msgstr ""
+
+#: includes/edit.php:1749
+msgid "Additional settings"
+msgstr ""
+
+#: includes/edit.php:1761
+msgid "Get good karma and spread some link love"
+msgstr ""
+
+#: includes/edit.php:1768
+msgid "Include special Stylesheet based on bootstrap 3.0 if your form does not look good"
+msgstr ""
+
+#: includes/vars.inc.php:54
+msgid "Submit-Button"
+msgstr ""
+
+#: index.php:320 includes/list.php:84 includes/list.php:102
+msgid "Unnamed form"
+msgstr ""
+
+#: includes/list.php:113
+msgid "Copy"
+msgstr ""

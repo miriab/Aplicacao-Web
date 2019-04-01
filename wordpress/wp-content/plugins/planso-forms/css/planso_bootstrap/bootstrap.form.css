@@ -1,0 +1,1296 @@
+/*!
+ * Bootstrap v3.3.1 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*!
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=9fd563821d4d5f808257)
+ * Config saved to config.json and https://gist.github.com/9fd563821d4d5f808257
+ */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/* MODIFIED FOR PLANSO FORMS */
+
+.planso-form-builder button,
+.planso-form-builder input,
+.planso-form-builder optgroup,
+.planso-form-builder select,
+.planso-form-builder textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+.planso-form-builder button {
+  overflow: visible;
+}
+.planso-form-builder button,
+.planso-form-builder select {
+  text-transform: none;
+}
+.planso-form-builder button,
+.planso-form-builder input[type="button"],
+.planso-form-builder input[type="reset"],
+.planso-form-builder input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+.planso-form-builder button[disabled],
+.planso-form-builder input[disabled] {
+  cursor: default;
+}
+.planso-form-builder button::-moz-focus-inner,
+.planso-form-builder input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.planso-form-builder input {
+  line-height: normal;
+}
+.planso-form-builder input[type="checkbox"],
+.planso-form-builder input[type="radio"] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+.planso-form-builder input[type="number"]::-webkit-inner-spin-button,
+.planso-form-builder input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+.planso-form-builder input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.planso-form-builder input[type="search"]::-webkit-search-cancel-button,
+.planso-form-builder input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.planso-form-builder textarea {
+  overflow: auto;
+}
+.planso-form-builder optgroup {
+  font-weight: bold;
+}
+
+.planso-form-builder *:before,
+.planso-form-builder *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.planso-form-builder input,
+.planso-form-builder button,
+.planso-form-builder select,
+.planso-form-builder textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+.planso-form-builder label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.planso-form-builder input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.planso-form-builder input[type="radio"],
+.planso-form-builder input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+.planso-form-builder input[type="file"] {
+  display: block;
+}
+.planso-form-builder input[type="range"] {
+  display: block;
+  width: 100%;
+}
+.planso-form-builder select[multiple],
+.planso-form-builder select[size] {
+  height: auto;
+}
+.planso-form-builder input[type="file"]:focus,
+.planso-form-builder input[type="radio"]:focus,
+.planso-form-builder input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.planso-form-builder .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.planso-form-builder .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.planso-form-builder .form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+.planso-form-builder .form-control:-ms-input-placeholder {
+  color: #999999;
+}
+.planso-form-builder .form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+.planso-form-builder .form-control[disabled],
+.planso-form-builder .form-control[readonly],
+.planso-form-builder fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+  opacity: 1;
+}
+.planso-form-builder textarea.form-control {
+  height: auto;
+}
+.planso-form-builder input[type="search"] {
+  -webkit-appearance: none;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .planso-form-builder input[type="date"],
+  .planso-form-builder input[type="time"],
+  .planso-form-builder input[type="datetime-local"],
+  .planso-form-builder input[type="month"] {
+    line-height: 34px;
+  }
+  .planso-form-builder input[type="date"].input-sm,
+  .planso-form-builder input[type="time"].input-sm,
+  .planso-form-builder input[type="datetime-local"].input-sm,
+  .planso-form-builder input[type="month"].input-sm {
+    line-height: 30px;
+  }
+  .planso-form-builder input[type="date"].input-lg,
+  .planso-form-builder input[type="time"].input-lg,
+  .planso-form-builder input[type="datetime-local"].input-lg,
+  .planso-form-builder input[type="month"].input-lg {
+    line-height: 46px;
+  }
+}
+.planso-form-builder .form-group {
+  margin-bottom: 15px;
+}
+.planso-form-builder .radio,
+.planso-form-builder .checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.planso-form-builder .radio label,
+.planso-form-builder .checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+.planso-form-builder .radio input[type="radio"],
+.planso-form-builder .radio-inline input[type="radio"],
+.planso-form-builder .checkbox input[type="checkbox"],
+.planso-form-builder .checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 4px \9;
+}
+.planso-form-builder .radio + .radio,
+.planso-form-builder .checkbox + .checkbox {
+  margin-top: -5px;
+}
+.planso-form-builder .radio-inline,
+.planso-form-builder .checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer;
+}
+.planso-form-builder .radio-inline + .radio-inline,
+.planso-form-builder .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+.planso-form-builder input[type="radio"][disabled],
+.planso-form-builder input[type="checkbox"][disabled],
+.planso-form-builder input[type="radio"].disabled,
+.planso-form-builder input[type="checkbox"].disabled,
+.planso-form-builder fieldset[disabled] input[type="radio"],
+.planso-form-builder fieldset[disabled] input[type="checkbox"] {
+  cursor: not-allowed;
+}
+.planso-form-builder .radio-inline.disabled,
+.planso-form-builder .checkbox-inline.disabled,
+.planso-form-builder fieldset[disabled] .radio-inline,
+.planso-form-builder fieldset[disabled] .checkbox-inline {
+  cursor: not-allowed;
+}
+.planso-form-builder .radio.disabled label,
+.planso-form-builder .checkbox.disabled label,
+.planso-form-builder fieldset[disabled] .radio label,
+.planso-form-builder fieldset[disabled] .checkbox label {
+  cursor: not-allowed;
+}
+.planso-form-builder .form-control-static {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+}
+.planso-form-builder .form-control-static.input-lg,
+.planso-form-builder .form-control-static.input-sm {
+  padding-left: 0;
+  padding-right: 0;
+}
+.planso-form-builder .input-sm,
+.planso-form-builder .form-group-sm .form-control {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.planso-form-builder select.input-sm,
+.planso-form-builder select.form-group-sm .form-control {
+  height: 30px;
+  line-height: 30px;
+}
+.planso-form-builder textarea.input-sm,
+.planso-form-builder textarea.form-group-sm .form-control,
+.planso-form-builder select[multiple].input-sm,
+.planso-form-builder select[multiple].form-group-sm .form-control {
+  height: auto;
+}
+.planso-form-builder .input-lg,
+.planso-form-builder .form-group-lg .form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+.planso-form-builder select.input-lg,
+.planso-form-builder select.form-group-lg .form-control {
+  height: 46px;
+  line-height: 46px;
+}
+.planso-form-builder textarea.input-lg,
+.planso-form-builder textarea.form-group-lg .form-control,
+.planso-form-builder select[multiple].input-lg,
+.planso-form-builder select[multiple].form-group-lg .form-control {
+  height: auto;
+}
+.planso-form-builder .has-feedback {
+  position: relative;
+}
+.planso-form-builder .has-feedback .form-control {
+  padding-right: 42.5px;
+}
+.planso-form-builder .form-control-feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  pointer-events: none;
+}
+.planso-form-builder .input-lg + .form-control-feedback {
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+}
+.planso-form-builder .input-sm + .form-control-feedback {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.planso-form-builder .has-success .help-block,
+.planso-form-builder .has-success .control-label,
+.planso-form-builder .has-success .radio,
+.planso-form-builder .has-success .checkbox,
+.planso-form-builder .has-success .radio-inline,
+.planso-form-builder .has-success .checkbox-inline,
+.planso-form-builder .has-success.radio label,
+.planso-form-builder .has-success.checkbox label,
+.planso-form-builder .has-success.radio-inline label,
+.planso-form-builder .has-success.checkbox-inline label {
+  color: #3c763d;
+}
+.planso-form-builder .has-success .form-control {
+  border-color: #3c763d;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.planso-form-builder .has-success .form-control:focus {
+  border-color: #2b542c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+}
+.planso-form-builder .has-success .input-group-addon {
+  color: #3c763d;
+  border-color: #3c763d;
+  background-color: #dff0d8;
+}
+.planso-form-builder .has-success .form-control-feedback {
+  color: #3c763d;
+}
+.planso-form-builder .has-warning .help-block,
+.planso-form-builder .has-warning .control-label,
+.planso-form-builder .has-warning .radio,
+.planso-form-builder .has-warning .checkbox,
+.planso-form-builder .has-warning .radio-inline,
+.planso-form-builder .has-warning .checkbox-inline,
+.planso-form-builder .has-warning.radio label,
+.planso-form-builder .has-warning.checkbox label,
+.planso-form-builder .has-warning.radio-inline label,
+.planso-form-builder .has-warning.checkbox-inline label {
+  color: #8a6d3b;
+}
+.planso-form-builder .has-warning .form-control {
+  border-color: #8a6d3b;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.planso-form-builder .has-warning .form-control:focus {
+  border-color: #66512c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+}
+.planso-form-builder .has-warning .input-group-addon {
+  color: #8a6d3b;
+  border-color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+.planso-form-builder .has-warning .form-control-feedback {
+  color: #8a6d3b;
+}
+.planso-form-builder .has-error .help-block,
+.planso-form-builder .has-error .control-label,
+.planso-form-builder .has-error .radio,
+.planso-form-builder .has-error .checkbox,
+.planso-form-builder .has-error .radio-inline,
+.planso-form-builder .has-error .checkbox-inline,
+.planso-form-builder .has-error.radio label,
+.planso-form-builder .has-error.checkbox label,
+.planso-form-builder .has-error.radio-inline label,
+.planso-form-builder .has-error.checkbox-inline label {
+  color: #a94442;
+}
+.planso-form-builder .has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.planso-form-builder .has-error .form-control:focus {
+  border-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+.planso-form-builder .has-error .input-group-addon {
+  color: #a94442;
+  border-color: #a94442;
+  background-color: #f2dede;
+}
+.planso-form-builder .has-error .form-control-feedback {
+  color: #a94442;
+}
+.planso-form-builder .has-feedback label ~ .form-control-feedback {
+  top: 25px;
+}
+.planso-form-builder .has-feedback label.sr-only ~ .form-control-feedback {
+  top: 0;
+}
+.planso-form-builder .help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+@media (min-width: 768px) {
+  .planso-form-builder .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .planso-form-builder .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  .planso-form-builder .form-inline .form-control-static {
+    display: inline-block;
+  }
+  .planso-form-builder .form-inline .input-group {
+    display: inline-table;
+    vertical-align: middle;
+  }
+  .planso-form-builder .form-inline .input-group .input-group-addon,
+  .planso-form-builder .form-inline .input-group .input-group-btn,
+  .planso-form-builder .form-inline .input-group .form-control {
+    width: auto;
+  }
+  .planso-form-builder .form-inline .input-group > .form-control {
+    width: 100%;
+  }
+  .planso-form-builder .form-inline .control-label {
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .planso-form-builder .form-inline .radio,
+  .planso-form-builder .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .planso-form-builder .form-inline .radio label,
+  .planso-form-builder .form-inline .checkbox label {
+    padding-left: 0;
+  }
+  .planso-form-builder .form-inline .radio input[type="radio"],
+  .planso-form-builder .form-inline .checkbox input[type="checkbox"] {
+    position: relative;
+    margin-left: 0;
+  }
+  .planso-form-builder .form-inline .has-feedback .form-control-feedback {
+    top: 0;
+  }
+}
+.planso-form-builder .form-horizontal .radio,
+.planso-form-builder .form-horizontal .checkbox,
+.planso-form-builder .form-horizontal .radio-inline,
+.planso-form-builder .form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+.planso-form-builder .form-horizontal .radio,
+.planso-form-builder .form-horizontal .checkbox {
+  min-height: 27px;
+}
+.planso-form-builder .form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+@media (min-width: 768px) {
+  .planso-form-builder .form-horizontal .control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px;
+  }
+}
+.planso-form-builder .form-horizontal .has-feedback .form-control-feedback {
+  right: 15px;
+}
+@media (min-width: 768px) {
+  .planso-form-builder .form-horizontal .form-group-lg .control-label {
+    padding-top: 14.3px;
+  }
+}
+@media (min-width: 768px) {
+  .planso-form-builder .form-horizontal .form-group-sm .control-label {
+    padding-top: 6px;
+  }
+}
+.planso-form-builder .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.planso-form-builder .btn:focus,
+.planso-form-builder .btn:active:focus,
+.planso-form-builder .btn.active:focus,
+.planso-form-builder .btn.focus,
+.planso-form-builder .btn:active.focus,
+.planso-form-builder .btn.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.planso-form-builder .btn:hover,
+.planso-form-builder .btn:focus,
+.planso-form-builder .btn.focus {
+  color: #333333;
+  text-decoration: none;
+}
+.planso-form-builder .btn:active,
+.planso-form-builder .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.planso-form-builder .btn.disabled,
+.planso-form-builder .btn[disabled],
+.planso-form-builder fieldset[disabled] .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.planso-form-builder .btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.planso-form-builder .btn-default:hover,
+.planso-form-builder .btn-default:focus,
+.planso-form-builder .btn-default.focus,
+.planso-form-builder .btn-default:active,
+.planso-form-builder .btn-default.active,
+.planso-form-builder .open > .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.planso-form-builder .btn-default:active,
+.planso-form-builder .btn-default.active,
+.planso-form-builder .open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+.planso-form-builder .btn-default.disabled,
+.planso-form-builder .btn-default[disabled],
+.planso-form-builder fieldset[disabled] .btn-default,
+.planso-form-builder .btn-default.disabled:hover,
+.planso-form-builder .btn-default[disabled]:hover,
+.planso-form-builder fieldset[disabled] .btn-default:hover,
+.planso-form-builder .btn-default.disabled:focus,
+.planso-form-builder .btn-default[disabled]:focus,
+.planso-form-builder fieldset[disabled] .btn-default:focus,
+.planso-form-builder .btn-default.disabled.focus,
+.planso-form-builder .btn-default[disabled].focus,
+.planso-form-builder fieldset[disabled] .btn-default.focus,
+.planso-form-builder .btn-default.disabled:active,
+.planso-form-builder .btn-default[disabled]:active,
+.planso-form-builder fieldset[disabled] .btn-default:active,
+.planso-form-builder .btn-default.disabled.active,
+.planso-form-builder .btn-default[disabled].active,
+.planso-form-builder fieldset[disabled] .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.planso-form-builder .btn-default .badge {
+  color: #ffffff;
+  background-color: #333333;
+}
+.planso-form-builder .btn-primary {
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.planso-form-builder .btn-primary:hover,
+.planso-form-builder .btn-primary:focus,
+.planso-form-builder .btn-primary.focus,
+.planso-form-builder .btn-primary:active,
+.planso-form-builder .btn-primary.active,
+.planso-form-builder .open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.planso-form-builder .btn-primary:active,
+.planso-form-builder .btn-primary.active,
+.planso-form-builder .open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.planso-form-builder .btn-primary.disabled,
+.planso-form-builder .btn-primary[disabled],
+.planso-form-builder fieldset[disabled] .btn-primary,
+.planso-form-builder .btn-primary.disabled:hover,
+.planso-form-builder .btn-primary[disabled]:hover,
+.planso-form-builder fieldset[disabled] .btn-primary:hover,
+.planso-form-builder .btn-primary.disabled:focus,
+.planso-form-builder .btn-primary[disabled]:focus,
+.planso-form-builder fieldset[disabled] .btn-primary:focus,
+.planso-form-builder .btn-primary.disabled.focus,
+.planso-form-builder .btn-primary[disabled].focus,
+.planso-form-builder fieldset[disabled] .btn-primary.focus,
+.planso-form-builder .btn-primary.disabled:active,
+.planso-form-builder .btn-primary[disabled]:active,
+.planso-form-builder fieldset[disabled] .btn-primary:active,
+.planso-form-builder .btn-primary.disabled.active,
+.planso-form-builder .btn-primary[disabled].active,
+.planso-form-builder fieldset[disabled] .btn-primary.active {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.planso-form-builder .btn-primary .badge {
+  color: #337ab7;
+  background-color: #ffffff;
+}
+.planso-form-builder .btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.planso-form-builder .btn-success:hover,
+.planso-form-builder .btn-success:focus,
+.planso-form-builder .btn-success.focus,
+.planso-form-builder .btn-success:active,
+.planso-form-builder .btn-success.active,
+.planso-form-builder .open > .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.planso-form-builder .btn-success:active,
+.planso-form-builder .btn-success.active,
+.planso-form-builder .open > .dropdown-toggle.btn-success {
+  background-image: none;
+}
+.planso-form-builder .btn-success.disabled,
+.planso-form-builder .btn-success[disabled],
+.planso-form-builder fieldset[disabled] .btn-success,
+.planso-form-builder .btn-success.disabled:hover,
+.planso-form-builder .btn-success[disabled]:hover,
+.planso-form-builder fieldset[disabled] .btn-success:hover,
+.planso-form-builder .btn-success.disabled:focus,
+.planso-form-builder .btn-success[disabled]:focus,
+.planso-form-builder fieldset[disabled] .btn-success:focus,
+.planso-form-builder .btn-success.disabled.focus,
+.planso-form-builder .btn-success[disabled].focus,
+.planso-form-builder fieldset[disabled] .btn-success.focus,
+.planso-form-builder .btn-success.disabled:active,
+.planso-form-builder .btn-success[disabled]:active,
+.planso-form-builder fieldset[disabled] .btn-success:active,
+.planso-form-builder .btn-success.disabled.active,
+.planso-form-builder .btn-success[disabled].active,
+.planso-form-builder fieldset[disabled] .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.planso-form-builder .btn-success .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+.planso-form-builder .btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.planso-form-builder .btn-info:hover,
+.planso-form-builder .btn-info:focus,
+.planso-form-builder .btn-info.focus,
+.planso-form-builder .btn-info:active,
+.planso-form-builder .btn-info.active,
+.planso-form-builder .open > .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.planso-form-builder .btn-info:active,
+.planso-form-builder .btn-info.active,
+.planso-form-builder .open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.planso-form-builder .btn-info.disabled,
+.planso-form-builder .btn-info[disabled],
+.planso-form-builder fieldset[disabled] .btn-info,
+.planso-form-builder .btn-info.disabled:hover,
+.planso-form-builder .btn-info[disabled]:hover,
+.planso-form-builder fieldset[disabled] .btn-info:hover,
+.planso-form-builder .btn-info.disabled:focus,
+.planso-form-builder .btn-info[disabled]:focus,
+.planso-form-builder fieldset[disabled] .btn-info:focus,
+.planso-form-builder .btn-info.disabled.focus,
+.planso-form-builder .btn-info[disabled].focus,
+.planso-form-builder fieldset[disabled] .btn-info.focus,
+.planso-form-builder .btn-info.disabled:active,
+.planso-form-builder .btn-info[disabled]:active,
+.planso-form-builder fieldset[disabled] .btn-info:active,
+.planso-form-builder .btn-info.disabled.active,
+.planso-form-builder .btn-info[disabled].active,
+.planso-form-builder fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.planso-form-builder .btn-info .badge {
+  color: #5bc0de;
+  background-color: #ffffff;
+}
+.planso-form-builder .btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.planso-form-builder .btn-warning:hover,
+.planso-form-builder .btn-warning:focus,
+.planso-form-builder .btn-warning.focus,
+.planso-form-builder .btn-warning:active,
+.planso-form-builder .btn-warning.active,
+.planso-form-builder .open > .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.planso-form-builder .btn-warning:active,
+.planso-form-builder .btn-warning.active,
+.planso-form-builder .open > .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+.planso-form-builder .btn-warning.disabled,
+.planso-form-builder .btn-warning[disabled],
+.planso-form-builder fieldset[disabled] .btn-warning,
+.planso-form-builder .btn-warning.disabled:hover,
+.planso-form-builder .btn-warning[disabled]:hover,
+.planso-form-builder fieldset[disabled] .btn-warning:hover,
+.planso-form-builder .btn-warning.disabled:focus,
+.planso-form-builder .btn-warning[disabled]:focus,
+.planso-form-builder fieldset[disabled] .btn-warning:focus,
+.planso-form-builder .btn-warning.disabled.focus,
+.planso-form-builder .btn-warning[disabled].focus,
+.planso-form-builder fieldset[disabled] .btn-warning.focus,
+.planso-form-builder .btn-warning.disabled:active,
+.planso-form-builder .btn-warning[disabled]:active,
+.planso-form-builder fieldset[disabled] .btn-warning:active,
+.planso-form-builder .btn-warning.disabled.active,
+.planso-form-builder .btn-warning[disabled].active,
+.planso-form-builder fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.planso-form-builder .btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #ffffff;
+}
+.planso-form-builder .btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.planso-form-builder .btn-danger:hover,
+.planso-form-builder .btn-danger:focus,
+.planso-form-builder .btn-danger.focus,
+.planso-form-builder .btn-danger:active,
+.planso-form-builder .btn-danger.active,
+.planso-form-builder .open > .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.planso-form-builder .btn-danger:active,
+.planso-form-builder .btn-danger.active,
+.planso-form-builder .open > .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+.planso-form-builder .btn-danger.disabled,
+.planso-form-builder .btn-danger[disabled],
+.planso-form-builder fieldset[disabled] .btn-danger,
+.planso-form-builder .btn-danger.disabled:hover,
+.planso-form-builder .btn-danger[disabled]:hover,
+.planso-form-builder fieldset[disabled] .btn-danger:hover,
+.planso-form-builder .btn-danger.disabled:focus,
+.planso-form-builder .btn-danger[disabled]:focus,
+.planso-form-builder fieldset[disabled] .btn-danger:focus,
+.planso-form-builder .btn-danger.disabled.focus,
+.planso-form-builder .btn-danger[disabled].focus,
+.planso-form-builder fieldset[disabled] .btn-danger.focus,
+.planso-form-builder .btn-danger.disabled:active,
+.planso-form-builder .btn-danger[disabled]:active,
+.planso-form-builder fieldset[disabled] .btn-danger:active,
+.planso-form-builder .btn-danger.disabled.active,
+.planso-form-builder .btn-danger[disabled].active,
+.planso-form-builder fieldset[disabled] .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.planso-form-builder .btn-danger .badge {
+  color: #d9534f;
+  background-color: #ffffff;
+}
+.planso-form-builder .btn-link {
+  color: #337ab7;
+  font-weight: normal;
+  border-radius: 0;
+}
+.planso-form-builder .btn-link,
+.planso-form-builder .btn-link:active,
+.planso-form-builder .btn-link.active,
+.planso-form-builder .btn-link[disabled],
+.planso-form-builder fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.planso-form-builder .btn-link,
+.planso-form-builder .btn-link:hover,
+.planso-form-builder .btn-link:focus,
+.planso-form-builder .btn-link:active {
+  border-color: transparent;
+}
+.planso-form-builder .btn-link:hover,
+.planso-form-builder .btn-link:focus {
+  color: #23527c;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.planso-form-builder .btn-link[disabled]:hover,
+.planso-form-builder fieldset[disabled] .btn-link:hover,
+.planso-form-builder .btn-link[disabled]:focus,
+.planso-form-builder fieldset[disabled] .btn-link:focus {
+  color: #777777;
+  text-decoration: none;
+}
+.planso-form-builder .btn-lg,
+.planso-form-builder .btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+.planso-form-builder .btn-sm,
+.planso-form-builder .btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.planso-form-builder .btn-xs,
+.planso-form-builder .btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.planso-form-builder .btn-block {
+  display: block;
+  width: 100%;
+}
+.planso-form-builder .btn-block + .btn-block {
+  margin-top: 5px;
+}
+.planso-form-builder input[type="submit"].btn-block,
+.planso-form-builder input[type="reset"].btn-block,
+.planso-form-builder input[type="button"].btn-block {
+  width: 100%;
+}
+.planso-form-builder .btn-group,
+.planso-form-builder .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.planso-form-builder .btn-group > .btn,
+.planso-form-builder .btn-group-vertical > .btn {
+  position: relative;
+  float: left;
+}
+.planso-form-builder .btn-group > .btn:hover,
+.planso-form-builder .btn-group-vertical > .btn:hover,
+.planso-form-builder .btn-group > .btn:focus,
+.planso-form-builder .btn-group-vertical > .btn:focus,
+.planso-form-builder .btn-group > .btn:active,
+.planso-form-builder .btn-group-vertical > .btn:active,
+.planso-form-builder .btn-group > .btn.active,
+.planso-form-builder .btn-group-vertical > .btn.active {
+  z-index: 2;
+}
+.planso-form-builder .btn-group .btn + .btn,
+.planso-form-builder .btn-group .btn + .btn-group,
+.planso-form-builder .btn-group .btn-group + .btn,
+.planso-form-builder .btn-group .btn-group + .btn-group {
+  margin-left: -1px;
+}
+.planso-form-builder .btn-toolbar {
+  margin-left: -5px;
+}
+.planso-form-builder .btn-toolbar .btn-group,
+.planso-form-builder .btn-toolbar .input-group {
+  float: left;
+}
+.planso-form-builder .btn-toolbar > .btn,
+.planso-form-builder .btn-toolbar > .btn-group,
+.planso-form-builder .btn-toolbar > .input-group {
+  margin-left: 5px;
+}
+.planso-form-builder .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+}
+.planso-form-builder .btn-group > .btn:first-child {
+  margin-left: 0;
+}
+.planso-form-builder .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.planso-form-builder .btn-group > .btn:last-child:not(:first-child),
+.planso-form-builder .btn-group > .dropdown-toggle:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.planso-form-builder .btn-group > .btn-group {
+  float: left;
+}
+.planso-form-builder .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+.planso-form-builder .btn-group > .btn-group:first-child > .btn:last-child,
+.planso-form-builder .btn-group > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.planso-form-builder .btn-group > .btn-group:last-child > .btn:first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.planso-form-builder .btn-group .dropdown-toggle:active,
+.planso-form-builder .btn-group.open .dropdown-toggle {
+  outline: 0;
+}
+.planso-form-builder .btn-group > .btn + .dropdown-toggle {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.planso-form-builder .btn-group > .btn-lg + .dropdown-toggle {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.planso-form-builder .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.planso-form-builder .btn-group.open .dropdown-toggle.btn-link {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.planso-form-builder .btn .caret {
+  margin-left: 0;
+}
+.planso-form-builder .btn-lg .caret {
+  border-width: 5px 5px 0;
+  border-bottom-width: 0;
+}
+.planso-form-builder .dropup .btn-lg .caret {
+  border-width: 0 5px 5px;
+}
+.planso-form-builder .btn-group-vertical > .btn,
+.planso-form-builder .btn-group-vertical > .btn-group,
+.planso-form-builder .btn-group-vertical > .btn-group > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+}
+.planso-form-builder .btn-group-vertical > .btn-group > .btn {
+  float: none;
+}
+.planso-form-builder .btn-group-vertical > .btn + .btn,
+.planso-form-builder .btn-group-vertical > .btn + .btn-group,
+.planso-form-builder .btn-group-vertical > .btn-group + .btn,
+.planso-form-builder .btn-group-vertical > .btn-group + .btn-group {
+  margin-top: -1px;
+  margin-left: 0;
+}
+.planso-form-builder .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+.planso-form-builder .btn-group-vertical > .btn:first-child:not(:last-child) {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.planso-form-builder .btn-group-vertical > .btn:last-child:not(:first-child) {
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.planso-form-builder .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+.planso-form-builder .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
+.planso-form-builder .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.planso-form-builder .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.planso-form-builder .btn-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+.planso-form-builder .btn-group-justified > .btn,
+.planso-form-builder .btn-group-justified > .btn-group {
+  float: none;
+  display: table-cell;
+  width: 1%;
+}
+.planso-form-builder .btn-group-justified > .btn-group .btn {
+  width: 100%;
+}
+.planso-form-builder .btn-group-justified > .btn-group .dropdown-menu {
+  left: auto;
+}
+.planso-form-builder [data-toggle="buttons"] > .btn input[type="radio"],
+.planso-form-builder [data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
+.planso-form-builder [data-toggle="buttons"] > .btn input[type="checkbox"],
+.planso-form-builder [data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}
+.planso-form-builder .input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+.planso-form-builder .input-group[class*="col-"] {
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+.planso-form-builder .input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+.planso-form-builder .input-group-lg > .form-control,
+.planso-form-builder .input-group-lg > .input-group-addon,
+.planso-form-builder .input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+.planso-form-builder select.input-group-lg > .form-control,
+.planso-form-builder select.input-group-lg > .input-group-addon,
+.planso-form-builder select.input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  line-height: 46px;
+}
+.planso-form-builder textarea.input-group-lg > .form-control,
+.planso-form-builder textarea.input-group-lg > .input-group-addon,
+.planso-form-builder textarea.input-group-lg > .input-group-btn > .btn,
+.planso-form-builder select[multiple].input-group-lg > .form-control,
+.planso-form-builder select[multiple].input-group-lg > .input-group-addon,
+.planso-form-builder select[multiple].input-group-lg > .input-group-btn > .btn {
+  height: auto;
+}
+.planso-form-builder .input-group-sm > .form-control,
+.planso-form-builder .input-group-sm > .input-group-addon,
+.planso-form-builder .input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.planso-form-builder select.input-group-sm > .form-control,
+.planso-form-builder select.input-group-sm > .input-group-addon,
+.planso-form-builder select.input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  line-height: 30px;
+}
+.planso-form-builder textarea.input-group-sm > .form-control,
+.planso-form-builder textarea.input-group-sm > .input-group-addon,
+.planso-form-builder textarea.input-group-sm > .input-group-btn > .btn,
+.planso-form-builder select[multiple].input-group-sm > .form-control,
+.planso-form-builder select[multiple].input-group-sm > .input-group-addon,
+.planso-form-builder select[multiple].input-group-sm > .input-group-btn > .btn {
+  height: auto;
+}
+.planso-form-builder .input-group-addon,
+.planso-form-builder .input-group-btn,
+.planso-form-builder .input-group .form-control {
+  display: table-cell;
+}
+.planso-form-builder .input-group-addon:not(:first-child):not(:last-child),
+.planso-form-builder .input-group-btn:not(:first-child):not(:last-child),
+.planso-form-builder .input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+.planso-form-builder .input-group-addon,
+.planso-form-builder .input-group-btn {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.planso-form-builder .input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555555;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+.planso-form-builder .input-group-addon.input-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.planso-form-builder .input-group-addon.input-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+.planso-form-builder .input-group-addon input[type="radio"],
+.planso-form-builder .input-group-addon input[type="checkbox"] {
+  margin-top: 0;
+}
+.planso-form-builder .input-group .form-control:first-child,
+.planso-form-builder .input-group-addon:first-child,
+.planso-form-builder .input-group-btn:first-child > .btn,
+.planso-form-builder .input-group-btn:first-child > .btn-group > .btn,
+.planso-form-builder .input-group-btn:first-child > .dropdown-toggle,
+.planso-form-builder .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.planso-form-builder .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.planso-form-builder .input-group-addon:first-child {
+  border-right: 0;
+}
+.planso-form-builder .input-group .form-control:last-child,
+.planso-form-builder .input-group-addon:last-child,
+.planso-form-builder .input-group-btn:last-child > .btn,
+.planso-form-builder .input-group-btn:last-child > .btn-group > .btn,
+.planso-form-builder .input-group-btn:last-child > .dropdown-toggle,
+.planso-form-builder .input-group-btn:first-child > .btn:not(:first-child),
+.planso-form-builder .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.planso-form-builder .input-group-addon:last-child {
+  border-left: 0;
+}
+.planso-form-builder .input-group-btn {
+  position: relative;
+  font-size: 0;
+  white-space: nowrap;
+}
+.planso-form-builder .input-group-btn > .btn {
+  position: relative;
+}
+.planso-form-builder .input-group-btn > .btn + .btn {
+  margin-left: -1px;
+}
+.planso-form-builder .input-group-btn > .btn:hover,
+.planso-form-builder .input-group-btn > .btn:focus,
+.planso-form-builder .input-group-btn > .btn:active {
+  z-index: 2;
+}
+.planso-form-builder .input-group-btn:first-child > .btn,
+.planso-form-builder .input-group-btn:first-child > .btn-group {
+  margin-right: -1px;
+}
+.planso-form-builder .input-group-btn:last-child > .btn,
+.planso-form-builder .input-group-btn:last-child > .btn-group {
+  margin-left: -1px;
+}
+.planso-form-builder .clearfix:before,
+.planso-form-builder .clearfix:after,
+.planso-form-builder .dl-horizontal dd:before,
+.planso-form-builder .dl-horizontal dd:after,
+.planso-form-builder .container:before,
+.planso-form-builder .container:after,
+.planso-form-builder .container-fluid:before,
+.planso-form-builder .container-fluid:after,
+.planso-form-builder .row:before,
+.planso-form-builder .row:after,
+.planso-form-builder .form-horizontal .form-group:before,
+.planso-form-builder .form-horizontal .form-group:after,
+.planso-form-builder .btn-toolbar:before,
+.planso-form-builder .btn-toolbar:after,
+.planso-form-builder .btn-group-vertical > .btn-group:before,
+.planso-form-builder .btn-group-vertical > .btn-group:after {
+  content: " ";
+  display: table;
+}
+.planso-form-builder .clearfix:after,
+.planso-form-builder .dl-horizontal dd:after,
+.planso-form-builder .container:after,
+.planso-form-builder .container-fluid:after,
+.planso-form-builder .row:after,
+.planso-form-builder .form-horizontal .form-group:after,
+.planso-form-builder .btn-toolbar:after,
+.planso-form-builder .btn-group-vertical > .btn-group:after {
+  clear: both;
+}
+.planso-form-builder .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.planso-form-builder .pull-right {
+  float: right !important;
+}
+.planso-form-builder .pull-left {
+  float: left !important;
+}
+.planso-form-builder .hide {
+  display: none !important;
+}
+.planso-form-builder .show {
+  display: block !important;
+}
+.planso-form-builder .invisible {
+  visibility: hidden;
+}
+.planso-form-builder .text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.planso-form-builder .hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
